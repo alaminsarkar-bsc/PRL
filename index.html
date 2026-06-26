@@ -18,6 +18,28 @@
     <div class="absolute top-0 left-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-[120px] pointer-events-none"></div>
     <div class="absolute top-1/2 right-10 w-96 h-96 bg-blue-500/5 rounded-full blur-[150px] pointer-events-none"></div>
 
+    <!-- 1. Sleek Top Contact Bar -->
+    <div class="bg-slate-950 text-xs text-gray-400 border-b border-slate-900/60 py-2 px-6 relative z-50">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center space-x-2">
+                <!-- Phone Icon -->
+                <svg class="w-3.5 h-3.5 text-orange-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+                <span class="font-semibold text-gray-300">হটলাইন:</span>
+                <a href="tel:+8809611308237" class="hover:text-orange-500 transition-colors font-mono font-medium">+8809611308237</a>
+            </div>
+            <div class="flex items-center space-x-2">
+                <!-- User Icon -->
+                <svg class="w-3.5 h-3.5 text-orange-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+                <span class="font-semibold text-gray-300">এম.ডি আলামিন (সরকার) স্যার:</span>
+                <a href="tel:+8801635483111" class="hover:text-orange-500 transition-colors font-mono font-medium">+8801635483111</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation (Sleek Glassmorphism) -->
     <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
@@ -37,7 +59,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative py-24 md:py-32 px-6">
+    <section class="relative pt-20 pb-12 md:pt-28 md:pb-16 px-6">
         <div class="container mx-auto max-w-5xl text-center relative z-10">
             <span class="inline-flex items-center space-x-2 bg-slate-900 border border-slate-800 text-orange-400 text-xs font-semibold px-4 py-1.5 rounded-full mb-6">
                 <span class="flex h-2 w-2 relative">
@@ -56,9 +78,41 @@
                 তাত্ত্বিক বিষয়ের সাথে ১০০% প্র্যাকটিক্যাল ক্লাসের সমন্বয়ে দেশের সবচেয়ে আধুনিক ল্যাবে কাজ শিখুন। নিজেকে একজন দক্ষ ও আপ-টু-ডেট টেকনিশিয়ান হিসেবে রূপান্তর করুন।
             </p>
             
-            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-16">
                 <a href="register.html" class="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-amber-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-[0_0_20px_rgba(249,115,22,0.5)] transition-all duration-300">ভর্তি হোন এখনই</a>
                 <a href="courses.html" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 border border-slate-800 text-gray-300 px-8 py-4 rounded-xl font-bold text-lg transition-all">কোর্স মডিউল দেখুন</a>
+            </div>
+
+            <!-- 2. Interactive Quick Contact Banner inside Hero -->
+            <div class="max-w-3xl mx-auto bg-slate-900/50 border border-slate-800/80 p-6 md:p-8 rounded-3xl backdrop-blur-sm neon-glow">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center text-left">
+                    <div>
+                        <span class="text-orange-500 text-xs font-bold uppercase tracking-wider block mb-1">যেকোনো তথ্যের জন্য কল করুন</span>
+                        <h3 class="text-xl font-bold text-white">ভর্তি ও পরামর্শ হেল্পলাইন</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <!-- Hotline -->
+                        <a href="tel:+8809611308237" class="flex items-center space-x-3 bg-slate-950 hover:bg-orange-500/10 border border-slate-800 hover:border-orange-500/40 px-4 py-2.5 rounded-xl transition group">
+                            <span class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center group-hover:bg-orange-500 group-hover:text-white transition">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+                            </span>
+                            <div>
+                                <span class="text-[10px] text-gray-500 block uppercase font-bold">হটলাইন নম্বর</span>
+                                <span class="text-sm font-mono font-semibold text-gray-200 group-hover:text-orange-400 transition">+8809611308237</span>
+                            </div>
+                        </a>
+                        <!-- Alamin Sir -->
+                        <a href="tel:+8801635483111" class="flex items-center space-x-3 bg-slate-950 hover:bg-orange-500/10 border border-slate-800 hover:border-orange-500/40 px-4 py-2.5 rounded-xl transition group">
+                            <span class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center group-hover:bg-orange-500 group-hover:text-white transition">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
+                            </span>
+                            <div>
+                                <span class="text-[10px] text-gray-500 block uppercase font-bold">এম.ডি আলামিন (সরকার) স্যার</span>
+                                <span class="text-sm font-mono font-semibold text-gray-200 group-hover:text-orange-400 transition">+8801635483111</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
